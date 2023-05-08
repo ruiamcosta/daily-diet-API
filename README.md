@@ -6,15 +6,15 @@
 ### Aplication rules
 - It should be possible to create a user
 - It must be possible to identify the user between requests
-- As refeições devem ser relacionadas a um utilizador
-- Meals must be related to a user
+- It must be possible to record a meal made, with the following information:
+  *Meals must be related to a user*
   -	Name
   -	Description
   -	Date and time
   - Are on the diet or not
 - It must be possible to edit a meal
-- Deve ser possível apagar uma refeição
 - It must be possible to delete a meal
+- It should be possible to list all meals of a user
 - It must be possible to visualize a single meal
 - It must be possible to retrieve a user's metrics
   -	Total amount of registered meals
