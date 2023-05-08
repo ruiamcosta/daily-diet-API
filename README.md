@@ -1,6 +1,6 @@
 # Ignite NodeJS Rocketseat 
 - Project developed as 'Challenge 02' of the Module 'Creating REST API with Node.js' at Rocketseat Ignite 
-- The application consists of a RESTful API with Node.js for daily diet tracking
+- The application consists of a REST API with Node.js for daily diet tracking
 - The application was developed with, eslint, dotenv, fastify, knex, zod sqlite, tsup to build the project the tests with vitest and supertest
 
 ### Aplication rules
