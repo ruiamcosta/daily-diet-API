@@ -3,7 +3,7 @@
 - The application consists of a RESTful API with Node.js for daily diet tracking
 - The application was developed with, eslint, dotenv, fastify, knex, zod sqlite, tsup to build the project the tests with vitest and supertest
 
-## Aplication rules
+### Aplication rules
 - It should be possible to create a user
 - It must be possible to identify the user between requests
 - As refeições devem ser relacionadas a um utilizador
@@ -23,14 +23,14 @@
   -	Best sequence per day of meals which he created
 - The user can only view, edit and delete meals that he created
 
-## To run the application
+### To run the application
 ```
 npm install
 npm run knex -- migrate:latest
 npm run dev
 ```
 
-## To run the tests
+### To run the tests
 ```
 npm run test
 ```
