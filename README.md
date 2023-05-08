@@ -3,7 +3,7 @@
 - The application consists of a REST API with Node.js for daily diet tracking
 - The application was developed with, eslint, dotenv, fastify, knex, zod sqlite, tsup to build the project and the tests with vitest and supertest
 
-### Aplication rules
+### Application rules
 - It should be possible to create a user
 - It must be possible to identify the user between requests
 - It must be possible to record a meal made, with the following information:
