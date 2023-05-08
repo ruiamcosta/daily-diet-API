@@ -1,31 +1,33 @@
-# Ordem
-- [x] instalar typescript, tsx, fastify, knex, sqlite, @rocketseat/eslint-config,...
-- [x] criar os respetivos scripts, .gitignore
-- [x] criar src, server.ts, database.ts, tsconfig.ts(tsc --init) e configurar
-- [x] testar com o knex e o sqlite sqlite_schema
-- [x] fazer as configurações do knex e criar .knexfile
-- [x] fazer o script do knex e criar as respetivas migrations
-- [x] criar env
-- [x] fazer as validações que houver com o zod
-- [x] instalar @fastify/cookie
-- [x] criar as rotas e middlewares
-- [x] fazer os testes
+# Ignite NodeJS Rocketseat 
+## Project developed as 'Challenge 02' of the Module 'Creating REST API with Node.js' at Rocketseat Ignite 
+## The application consists of a RESTful API with Node.js for daily diet tracking
+## The application was developed with, eslint, dotenv, fastify, knex, zod sqlite, tsup to build the project the tests with vitest and supertest
 
-# [x]	Deve ser possível criar um utilizador
-# [x]	Deve ser possível identificar o utilizador entre as requisições
-# [x]	As refeições devem ser relacionadas a um utilizador
-# [x]	Deve ser possível registar uma refeição feita, com as seguintes informações
-##	Nome
-##	Descrição
-##	Data e Hora
-## Está dentro ou não da dieta
-#	[x] Deve ser possível editar uma refeição, podendo alterar todos os dados acima
-#	[x] Deve ser possível apagar uma refeição
-#	[x] Deve ser possível listar todas as refeições de um utilizador
-#	[x] Deve ser possível visualizar uma única refeição
-#	[x] Deve ser possível recuperar as métricas de um utilizador
-#	  [x] Quantidade total de refeições registadas
-#	  [x] Quantidade total de refeições dentro da dieta
-#	  [x] Quantidade total de refeições fora da dieta
-#	  [x] Melhor sequência por dia de refeições o qual ele criou
-#	[x] O utilizador só pode visualizar, editar e apagar refeições que ele criou
+# Aplication rules
+## It should be possible to create a user
+## It must be possible to identify the user between requests
+## As refeições devem ser relacionadas a um utilizador
+## Meals must be related to a user
+-	Name
+-	Description
+-	Date and time
+- Are on the diet or not
+## It must be possible to edit a meal
+## Deve ser possível apagar uma refeição
+## It must be possible to delete a meal
+## It must be possible to visualize a single meal
+## It must be possible to retrieve a user's metrics
+-	Total amount of registered meals
+-	Total amount of meals within the diet
+-	Total number of off-diet meals
+-	Best sequence per day of meals which he created
+## The user can only view, edit and delete meals that he created
+
+# To run the application
+## npm install
+## npm run knex -- migrate:latest
+## npm run dev
+
+# To run the tests
+## npm run test
+
